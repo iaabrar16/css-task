@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    position: relative;
+    border: 1px solid black;
+}
+
+.textdiv {
+    position: relative;
+    height: 200px;
+    border: 1px solid black;
+
+}
+
+.textdiv div {
+    position: absolute;
+    width: 250px;
+    right: 250px;
+    top: 100px;
+    border: 1px solid black;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+
+}
+
+.form {
+    height: 80vh;
+    width: 400px;
+    background-color: rgb(211, 209, 209);
+    border: 1px solid;
+}
+
+.box {
+    height: 80vh;
+    width: 300px;
+    background-color: rgb(211, 209, 209);
+}
